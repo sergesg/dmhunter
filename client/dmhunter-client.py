@@ -40,7 +40,6 @@ def get_group_logger(group_name):
     logger.handlers = [handler]
     return logger
 
-
 async def client(apps, startswith_dm, all_proc):
     uri = f'ws://dmhunter-test.tsing.net/dmhunter/ws/chat/'
     subscribe_success = True
